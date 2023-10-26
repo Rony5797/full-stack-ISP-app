@@ -1,0 +1,53 @@
+.headsection {
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(46, 191, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(46, 191, 145, 1) 0%,
+    rgba(94, 105, 199, 1) 100%
+  );
+  
+  
+}
+.headsection .content {
+  width: 50%;
+  margin-bottom: 15rem;
+  color: var(--light-color);
+}
+.headsection .content h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.headsection .content p {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  line-height: 2;
+  word-spacing: 3px;
+}
+.headsection .content .btn {
+  padding: 12px 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--green);
+  background: var(--light-color);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.headsection .content .btn:hover {
+  background: var(--green);
+  color: var(--light-color);
+  outline: 2px solid var(--light-color);
+}
+.headsection .bkashimg {
+  margin-bottom: 15rem;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--light-color);
+  font-size: 2rem;
+}

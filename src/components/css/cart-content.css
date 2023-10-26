@@ -1,0 +1,108 @@
+.cart-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: -18rem;
+  z-index: 2;
+}
+.cart-container .box {
+  width: 400px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+.cart-container .box img {
+  width: 100%;
+  display: block;
+  transition: all 0.5s;
+}
+.cart-container .box img.hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(100%);
+}
+.cart-container .box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background: #000;
+  z-index: 1;
+}
+.cart-container .box .cart-des {
+  width: 300px;
+  position: absolute;
+  top: 20rem;
+  left: 3rem;
+  color: var(--white-color);
+  padding: 0px 20px;
+  margin: -30px 0;
+  z-index: 2;
+}
+.cart-container .box .cart-des h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.cart-container .box .cart-des p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cart-container .box .cart-des .mini-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: var(--theme-color1);
+}
+.cart-container .box::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.cart-container .box::after {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  clip-path: circle(22% at 90% 10%);
+  transition: 0.2s;
+}
+.cart-container .box .icon {
+  position: absolute;
+  top: 1.8rem;
+  right: 2.5rem;
+  font-size: 6rem;
+  z-index: 3;
+  color: var(--theme-color1);
+}
+.cart-container .box:hover img {
+  transform: translateX(-100%);
+}
+.cart-container .box:hover img.hover-img {
+  transform: translateX(0%);
+}
+.cart-container .box:hover::after {
+  background: var(--theme-color1);
+}
+
+.cart-container .box:hover .icon {
+  color: var(--white-color);
+}

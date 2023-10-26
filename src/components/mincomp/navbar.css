@@ -1,0 +1,60 @@
+.navber {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+.navber .logo {
+  width: 10rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--green);
+}
+.navber nav {
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navber nav li {
+  list-style: none;
+  margin-right: 2rem;
+  font-size: 1.8rem;
+  color: var(--black);
+  cursor: pointer;
+  position: relative;
+}
+.navber nav .active::before {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background: var(--green);
+  content: "";
+}
+.navber .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 8px;
+  color: var(--white-color);
+  background: var(--green);
+}
+.navber .login:hover {
+  background: var(--white-color);
+  color: var(--green);
+  outline: 2px solid var(--green);
+}
+.navber .login a {
+  font-weight: 600;
+}
+
+.navber .login .bi {
+  margin-right: 0.5rem;
+  font-size: 3rem;
+}

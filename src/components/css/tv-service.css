@@ -1,0 +1,103 @@
+.tv-service {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f5f7;
+  overflow: hidden;
+}
+
+.tv-service .left-side {
+  margin-top: 25rem;
+  position: relative;
+}
+.tv-service .left-side .client {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: red;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 40px;
+  text-align: center;
+  color: var(--light-color);
+}
+.tv-service .left-side .client span {
+  font-size: 3.5rem;
+}
+.tv-service .right-side {
+  margin-top: 25rem;
+  margin-left: 20rem;
+  padding: 0 3rem;
+  z-index: 2;
+}
+
+.tv-service .right-side h1 {
+  font-size: 5rem;
+  word-spacing: 3px;
+  color: var(--black);
+}
+.tv-service .right-side h5 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 2rem 0;
+  word-spacing: 3px;
+  color: var(--black);
+}
+.tv-service .right-side .exp-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 1.5rem 0;
+  
+}
+.tv-service .right-side .exp-content .exp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 3rem;
+  width: 500px;
+  padding: 10px;
+  background: var(--white-color);
+  border-radius: 10px;
+  font-size: 2rem;
+  font-weight: 900;
+  border: 1px solid #555555;
+}
+.tv-service .right-side .exp-content p {
+  color: #555555;
+  line-height: 1.8;
+  word-spacing: 3px;
+}
+.tv-service .right-side .exp-content .exp .fa {
+  margin-right: 1rem;
+  font-size: 8rem;
+  color: var(--green);
+}
+.tv-service .right-side .check-content {
+  width: 600px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #555555;
+}
+.tv-service .right-side .check-content p {
+  margin-bottom: 1rem;
+  word-spacing: 3px;
+}
+.tv-service .right-side .check-content .ai {
+  margin-right: 1rem;
+  color: red;
+}
+.tv-service img.pattern {
+  position: relative;
+  top: -15rem;
+  right: 10rem;
+ 
+}

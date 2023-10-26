@@ -1,0 +1,207 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  color: #ffffff;
+}
+.footer .footer-content {
+  width: 400px;
+  margin-top: 3rem;
+}
+.footer .footer-content h1 {
+  font-size: 2.5rem;
+}
+.footer .footer-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #a9a9a9c1;
+}
+.footer .footer-content .social {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.footer .footer-content .social .icon-box {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+}
+.footer .footer-content .social .icon {
+  font-size: 2.5rem;
+  color: var(--green);
+}
+.footer .footer-content .social .app {
+  font-size: 2.8rem;
+  color: var(--green);
+}
+.footer .footer-content .social .icon-box:hover {
+  background: var(--green);
+}
+.footer .footer-content .social .icon-box:hover .icon {
+  color: #ffffff;
+}
+.footer .usefull-link {
+  margin-top: 3rem;
+}
+.footer .usefull-link h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0.2rem 0;
+  font-size: 2rem;
+  border-bottom: 2px solid #ffffff;
+}
+.footer .usefull-link .link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #a9a9a9c1;
+}
+.footer .usefull-link .link .md {
+  font-size: 1.8rem;
+}
+.footer .usefull-link a {
+  font-size: 1.7rem;
+  padding: 5px;
+  font-weight: 600;
+  margin-left: 1rem;
+  cursor: pointer;
+  position: relative;
+}
+.footer .usefull-link a::before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background: var(--green);
+  content: "";
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.footer .usefull-link a:hover {
+  color: #ffffff;
+}
+.footer .usefull-link a:hover::before {
+  width: 100%;
+}
+.footer .services {
+  margin-top: 3rem;
+}
+.footer .services h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0.2rem 0;
+  font-size: 2rem;
+  border-bottom: 2px solid #ffffff;
+}
+.footer .services .link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #a9a9a9c1;
+}
+.footer .services .link .md {
+  font-size: 1.8rem;
+}
+.footer .services a {
+  font-size: 1.7rem;
+  padding: 5px;
+  font-weight: 600;
+  margin-left: 1rem;
+  cursor: pointer;
+  position: relative;
+}
+.footer .services a::before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background: var(--green);
+  content: "";
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.footer .services a:hover {
+  color: #ffffff;
+}
+.footer .services a:hover::before {
+  width: 100%;
+}
+.footer .support {
+  margin-top: 1rem;
+}
+.footer .support .logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.footer .support .logo p {
+  font-size: 3rem;
+  /* margin-left: -20px; */
+}
+.footer .support .call {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 1rem;
+}
+.footer .support .call .icon {
+  width: 50px;
+  height: 50px;
+  background: var(--green);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.footer .support .call .icon .bs {
+  font-size: 3rem;
+}
+.footer .support .call h3 {
+  font-size: 2rem;
+}
+.footer .support .call h3 p {
+  font-size: 2rem;
+  color: var(--green);
+}
+
+.footer .support .mail {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.footer .support .mail .icon {
+  width: 50px;
+  height: 50px;
+  background: var(--green);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.footer .support .mail .icon .hi {
+  font-size: 3rem;
+}
+.footer .support .mail h3 {
+  font-size: 2rem;
+  text-transform: lowercase;
+}
+.footer .support .mail h3 p {
+  font-size: 2rem;
+  color: var(--green);
+}
+.author {
+  text-align: center;
+  background: #000;
+  color: #ffffff;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,16 @@
+.review .swiper-pagination {
+  position: relative;
+}
+.review .swiper-pagination-bullet {
+  background: var(--green);
+}
+.review h1 {
+  width: 500px;
+  margin: 5rem auto;
+  text-align: center;
+  font-size: 3rem;
+  color: var(--black);
+}
+.review .review-slider {
+  margin-bottom: 5rem;
+}

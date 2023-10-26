@@ -1,0 +1,202 @@
+@media (max-width: 320px) {
+  /* head section */
+  .headsection {
+    width: 125rem;
+    height: 370rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .headsection .content {
+    width: 95%;
+    padding: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 15rem;
+    color: var(--light-color);
+  }
+  .headsection .content h1 {
+    font-size: 10rem;
+    margin-bottom: 5rem;
+  }
+  .headsection .content p {
+    width: 90%;
+    font-size: 5rem;
+    line-height: 1.5;
+  }
+  .headsection .content .btn {
+    padding: 20px 50px;
+    font-size: 5rem;
+  }
+  .headsection .bkashimg h3 {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+  }
+  .headsection .bkashimg hr {
+    width: 80%;
+    position: relative;
+    left: 110px;
+  }
+  .headsection .bkashimg img {
+    width: 90%;
+    margin-top: 2rem;
+  }
+  /* cart section */
+  .cart-container {
+    position: relative;
+    top: 5rem;
+    width: 125rem;
+  }
+  .cart-container .box {
+    width: 100%;
+    margin: 5rem auto;
+  }
+  .cart-container .box .cart-des {
+    width: 90%;
+    top: 40rem;
+  }
+  .cart-container .box .cart-des h3 {
+    font-size: 9rem;
+    margin-bottom: 4rem;
+  }
+  .cart-container .box .cart-des p {
+    font-size: 7rem;
+    margin-bottom: 2rem;
+  }
+  .cart-container .box .cart-des .mini-icon {
+    font-size: 10rem;
+    margin-right: 3rem;
+  }
+  .cart-container .box .icon {
+    font-size: 20rem;
+    top: 4rem;
+    right: 5rem;
+  }
+  /* tv-servise section */
+  .tv-service {
+    display: block;
+    width: 125rem;
+    height: 310rem;
+  }
+  .tv-service .left-side {
+    margin: 5rem auto;
+    width: 100%;
+  }
+  .tv-service .left-side img {
+    width: 100%;
+  }
+  .tv-service .left-side .client {
+    width: 300px;
+    height: 300px;
+    right: 5rem;
+    font-size: 5rem;
+  }
+  .tv-service .left-side .client span {
+    font-size: 10rem;
+  }
+  .tv-service .right-side {
+    margin: 5rem auto;
+    z-index: 50;
+  }
+  .tv-service .right-side h1 {
+    font-size: 10rem;
+  }
+  .tv-service .right-side h5 {
+    font-size: 6rem;
+  }
+  .tv-service .right-side .exp-content {
+    width: 100%;
+  }
+  .tv-service .right-side .exp-content .exp .fa {
+    font-size: 20rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .tv-service .right-side .exp-content .exp p {
+    font-size: 4rem;
+    line-height: 1.8;
+    word-spacing: 3px;
+  }
+  .tv-service .right-side .exp-content p {
+    font-size: 4rem;
+  }
+  .tv-service .right-side .check-content {
+    width: 100%;
+    font-size: 5rem;
+  }
+  .tv-service .right-side .check-content p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tv-service .right-side .check-content .ai {
+    margin-right: 3rem;
+    font-size: 10rem;
+  }
+  .tv-service img.pattern {
+    display: none;
+  }
+  /* servise section */
+  .servises {
+    width: 110rem;
+    height: auto;
+  }
+  .servises .title {
+    width: 100%;
+    margin: 5rem auto;
+    font-size: 4rem;
+  }
+  .servises .box-area {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .servises .box-area .box {
+    padding: 20px 40px;
+    width: 100%;
+    height: 800px;
+    margin: 5rem auto;
+  }
+  .servises .box-area .box .box-icon {
+    width: 300px;
+    height: 300px;
+    margin: 5rem auto;
+  }
+  .servises .box-area .box .box-icon .icons {
+    font-size: 25rem;
+  }
+  .servises .box-area .box h3 {
+    font-size: 10rem;
+  }
+  .servises .box-area .box-cart {
+    width: 100%;
+    height: 800px;
+  }
+  .servises .box-area .box-cart .box-cart-content {
+    width: 70%;
+    display: block;
+    top: 10rem;
+  }
+  .servises .box-area .box-cart .box-cart-content h3 {
+    font-size: 8rem;
+    margin-bottom: 3rem;
+  }
+  .servises .box-area .box-cart .box-cart-content p {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+  }
+  .servises .box-area .box-cart .box-cart-content a {
+    width: 70%;
+    padding: 4rem 3rem;
+    font-size: 5rem;
+    border-radius: 2rem;
+  }
+  .servises .box-area .box-cart .box-cart-content a .bs {
+    font-size: 8rem;
+  }
+  .servises .tvserver {
+    width: 100%;
+    display: flex;
+    
+         
+  }
+}

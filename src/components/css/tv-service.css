@@ -13,9 +13,7 @@
   margin-top: 25rem;
   position: relative;
 }
-/* .tv-service .left-side img {
-  width: 500px;
-} */
+
 .tv-service .left-side .client {
   position: absolute;
   top: 50%;
@@ -30,6 +28,7 @@
   text-align: center;
   color: var(--light-color);
 }
+
 .tv-service .left-side .client span {
   font-size: 3.5rem;
 }

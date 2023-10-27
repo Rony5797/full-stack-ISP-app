@@ -84,6 +84,9 @@
     width: 300px;
     height: 250px;
   }
+  .coverage .area-content .fa {
+    font-size: 8rem;
+  }
   .package-cart {
     width: 350px;
     height: 580px;
@@ -138,5 +141,279 @@
   }
   .footer .usefull-link h1 {
     font-size: 1.8rem;
+  }
+  .reviewslide {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .headsection .content h1 {
+    font-size: 3rem;
+  }
+  .headsection .content p {
+    font-size: 1.7rem;
+  }
+  .headsection .content .btn {
+    font-size: 1.5rem;
+  }
+  .headsection .bkashimg {
+    width: 25%;
+  }
+  .cart-container {
+    bottom: -15rem;
+  }
+  .cart-container .box {
+    width: 300px;
+  }
+  .cart-container .box .cart-des {
+    top: 14rem;
+  }
+  .cart-container .box .icon {
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 5rem;
+  }
+  .tv-service .left-side img {
+    width: 450px;
+  }
+  .tv-service .left-side .client {
+    width: 120px;
+    height: 120px;
+    font-size: 1.5rem;
+    padding: 32px;
+  }
+  .tv-service .left-side .client span {
+    font-size: 2.5rem;
+  }
+  .tv-service .right-side h1 {
+    font-size: 3rem;
+  }
+  .tv-service .right-side h5 {
+    font-size: 2rem;
+  }
+  .tv-service .right-side .exp-content {
+    font-size: 1.5rem;
+  }
+  .tv-service .right-side .check-content {
+    font-size: 1.5rem;
+  }
+  .servises .tvserver .tvserver-content h1 {
+    font-size: 3rem;
+  }
+  .servises .tvserver .tvserver-content p {
+    font-size: 1.8rem;
+  }
+  .homeservise .right-side h1 {
+    font-size: 3rem;
+  }
+  .homeservise .right-side h6 {
+    font-size: 1.8rem;
+  }
+  .homeservise .right-side .exp-content .exp {
+    width: 80px;
+    height: 80px;
+    padding: 2rem;
+  }
+  .homeservise .right-side .exp-content .exp .icons {
+    font-size: 200px;
+  }
+  .homeservise .right-side .exp-content p {
+    line-height: 1.5;
+  }
+  .coverage {
+    width: 90%;
+  }
+  .reviewslide {
+    height: 350px;
+  }
+  .reviewslide .bi {
+    font-size: 4rem;
+  }
+  .reviewslide .user img {
+    height: 8rem;
+    width: 8rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .headsection {
+    height: 80vh;
+  }
+  .cart-container .box {
+    width: 260px;
+    bottom: 12rem;
+  }
+  .cart-container .box .cart-des {
+    top: 12rem;
+    left: 0;
+  }
+  .cart-container .box .cart-des h3 {
+    font-size: 1.8rem;
+  }
+  .cart-container .box .cart-des p {
+    font-size: 1.3rem;
+  }
+  .cart-container .box .cart-des .mini-icon {
+    font-size: 1.5rem;
+  }
+  .cart-container .box .icon {
+    font-size: 4rem;
+  }
+  .tv-service .left-side {
+    margin-top: 10rem;
+  }
+  .tv-service .left-side .client {
+    right: -5rem;
+  }
+  .tv-service .right-side {
+    margin-top: 10rem;
+  }
+  .tv-service .right-side .exp-content {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .tv-service .right-side .exp-content .exp {
+    width: 200px;
+    height: 60px;
+    margin-bottom: 1rem;
+    display: flex;
+    text-align: center;
+  }
+  .tv-service .right-side .check-content {
+    width: 400px;
+  }
+  .tv-service img.pattern {
+    top: -30rem;
+    right: 25rem;
+  }
+  .servises .tvserver {
+    height: 300px;
+  }
+  .homeservise .right-side {
+    width: 60%;
+    margin-left: 5rem;
+  }
+  .coverage .area-content .area-text p {
+    font-size: 1.5rem;
+  }
+  .coverage .area-content .area-text h6 {
+    font-size: 2rem;
+  }
+  .package-cart {
+    height: 550px;
+  }
+  .package-cart .cart-img .overlay {
+    width: 100px;
+    height: 80px;
+    top: 5rem;
+  }
+  .package-cart .cart-img .overlay h1 {
+    font-size: 3rem;
+  }
+  .package-cart .cart-img .overlay p {
+    font-size: 1.5rem;
+  }
+  .package-cart .cart-desc .level {
+    font-size: 2.2rem;
+  }
+  .package-cart .cart-desc .list p {
+    font-size: 1.3rem;
+  }
+  .package-cart .cart-desc .price {
+    margin-bottom: 2.5rem;
+  }
+  .contact .pattern {
+    height: 400px;
+    width: 200px;
+  }
+  .footer .footer-content {
+    margin-right: 2rem;
+  }
+  .footer .footer-content h1 {
+    font-size: 1.5rem;
+  }
+  .footer .footer-content p {
+    font-size: 1.3rem;
+  }
+  .footer .usefull-link {
+    width: 150px;
+    margin-right: 2rem;
+  }
+  .footer .usefull-link a {
+    font-size: 1.5rem;
+  }
+  .footer .services {
+    width: 150px;
+    margin-right: 2rem;
+  }
+  .footer .services a {
+    font-size: 1.5rem;
+  }
+  .footer .support .logo {
+    width: 240px;
+  }
+
+  .footer .support .call h3 {
+    font-size: 1.5rem;
+  }
+  .footer .support .mail h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1150px) {
+  .headsection .content h1 {
+    width: 400px;
+  }
+  .headsection .bkashimg {
+    width: 30%;
+  }
+  .cart-container .box {
+    width: 230px;
+    bottom: 12rem;
+  }
+  .cart-container .box .cart-des {
+    top: 11rem;
+    left: 0rem;
+  }
+  .cart-container .box .cart-des h3 {
+    width: 150px;
+    font-size: 1.5rem;
+  }
+  .cart-container .box .icon {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    font-size: 3.5rem;
+  }
+  .tv-service .left-side img {
+    width: 350px;
+  }
+  .tv-service .left-side .client {
+    right: 0;
+  }
+  .tv-service .right-side {
+    width: 100%;
+    margin-left: 5rem;
+  }
+  .servises .box-area .box {
+    width: 250px;
+    height: 250px;
+  }
+  .servises .box-area .box-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .servises .box-area .box h3 {
+    font-size: 1.8rem;
+  }
+  .packages .package-content {
+    flex-wrap: wrap;
+  }
+  .package-cart {
+    margin-bottom: 2rem;
+  }
+  .package-cart .cart-desc .list p {
+    font-size: 1.5rem;
   }
 }

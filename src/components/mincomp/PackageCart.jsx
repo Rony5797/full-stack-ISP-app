@@ -34,7 +34,7 @@ const PackageCart = ({ Img, level, price, mb }) => {
             <BiCheck className="bi" /> 4K Youtube and Facebook Stream.
           </p>
           <p>
-            <BiCheck className="bi" /> Optical Fiber Connectionm.
+            <BiCheck className="bi" /> Optical Fiber Connection.
           </p>
           <p>
             <BiCheck className="bi" /> IPv4 & IPv6 Public IP{" "}

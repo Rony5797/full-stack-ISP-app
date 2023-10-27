@@ -52,3 +52,6 @@
   color: var(--light-color);
   font-size: 2rem;
 }
+.headsection .bkashimg img{
+  width: 100%;
+}

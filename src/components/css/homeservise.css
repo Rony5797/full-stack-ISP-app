@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.homeservise .left-side{
+.homeservise .left-side {
   width: 50%;
 }
 .homeservise .right-side {
@@ -37,6 +37,9 @@
   margin: 1.5rem 0;
 }
 .homeservise .right-side .exp-content .exp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 2rem;
   width: 100px;
   height: 100px;
@@ -45,9 +48,7 @@
   border-radius: 50%;
   border: 1px solid #d3d3d3;
 }
-.homeservise .right-side .exp-content .exp .fa-solid {
-  font-size: 5rem;
-}
+
 .homeservise .right-side .exp-content h5 {
   color: #555555;
   line-height: 1.8;
@@ -60,7 +61,6 @@
   word-spacing: 3px;
 }
 .homeservise .right-side .exp-content .exp .icons {
-  margin-right: 1rem;
   font-size: 5rem;
   color: var(--green);
 }
@@ -106,6 +106,7 @@
   color: var(--black);
 }
 .coverage .area-img {
+  width: 50%;
   margin: 0 auto;
 }
 .coverage .area-img img {

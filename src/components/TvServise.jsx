@@ -8,7 +8,9 @@ const TvServise = () => {
       <div className="left-side">
         <img src="img/about-1.png" />
         <div className="client">
-          <span>1K+ </span>clients
+          <p>
+            <span>1K+ </span>clients
+          </p>
         </div>
       </div>
 

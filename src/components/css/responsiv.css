@@ -1,202 +1,142 @@
-@media (max-width: 320px) {
-  /* head section */
-  .headsection {
-    width: 125rem;
-    height: 370rem;
-    display: block;
-    align-items: center;
-    justify-content: center;
-  }
-  .headsection .content {
-    width: 95%;
-    padding: 5rem;
-    margin-left: 5rem;
-    margin-bottom: 15rem;
-    color: var(--light-color);
-  }
-  .headsection .content h1 {
-    font-size: 10rem;
-    margin-bottom: 5rem;
-  }
-  .headsection .content p {
-    width: 90%;
-    font-size: 5rem;
-    line-height: 1.5;
-  }
-  .headsection .content .btn {
-    padding: 20px 50px;
-    font-size: 5rem;
-  }
-  .headsection .bkashimg h3 {
-    font-size: 8rem;
-    margin-bottom: 2rem;
-  }
-  .headsection .bkashimg hr {
-    width: 80%;
-    position: relative;
-    left: 110px;
-  }
-  .headsection .bkashimg img {
-    width: 90%;
-    margin-top: 2rem;
-  }
-  /* cart section */
-  .cart-container {
-    position: relative;
-    top: 5rem;
-    width: 125rem;
-  }
+@media (max-width: 1600px) {
   .cart-container .box {
-    width: 100%;
-    margin: 5rem auto;
+    width: 350px;
   }
   .cart-container .box .cart-des {
-    width: 90%;
-    top: 40rem;
+    top: 15rem;
+    left: 1rem;
   }
   .cart-container .box .cart-des h3 {
-    font-size: 9rem;
-    margin-bottom: 4rem;
-  }
-  .cart-container .box .cart-des p {
-    font-size: 7rem;
-    margin-bottom: 2rem;
-  }
-  .cart-container .box .cart-des .mini-icon {
-    font-size: 10rem;
-    margin-right: 3rem;
+    font-size: 2rem;
+    width: 200px;
   }
   .cart-container .box .icon {
-    font-size: 20rem;
-    top: 4rem;
-    right: 5rem;
-  }
-  /* tv-servise section */
-  .tv-service {
-    display: block;
-    width: 125rem;
-    height: 310rem;
+    top: 1.8rem;
+    right: 2.3rem;
+    font-size: 5rem;
   }
   .tv-service .left-side {
-    margin: 5rem auto;
-    width: 100%;
+    width: 40%;
   }
   .tv-service .left-side img {
-    width: 100%;
-  }
-  .tv-service .left-side .client {
-    width: 300px;
-    height: 300px;
-    right: 5rem;
-    font-size: 5rem;
-  }
-  .tv-service .left-side .client span {
-    font-size: 10rem;
+    width: 500px;
   }
   .tv-service .right-side {
-    margin: 5rem auto;
-    z-index: 50;
+    margin-left: 10rem;
   }
+
   .tv-service .right-side h1 {
-    font-size: 10rem;
+    font-size: 4rem;
   }
   .tv-service .right-side h5 {
-    font-size: 6rem;
+    font-size: 2.2rem;
   }
-  .tv-service .right-side .exp-content {
+  .tv-service .right-side .exp-content .exp {
+    font-size: 1.5rem;
+  }
+
+  .homeservise .left-side {
+    width: 40%;
+  }
+  .homeservise .left-side img {
     width: 100%;
+  }
+  .homeservise .right-side h1 {
+    font-size: 4rem;
+  }
+  .packages .title {
+    font-size: 2.5rem;
+  }
+  .package-cart {
+    width: 380px;
+    height: 600px;
+  }
+  .package-cart .cart-desc {
+    margin: 1rem 3.5rem;
+  }
+  .contact-us .map {
+    width: 45%;
+  }
+  .contact .pattern {
+    height: 500px;
+    width: 400px;
+  }
+  .footer .footer-content {
+    width: 300px;
+  }
+  .footer .footer-content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .tv-service .right-side .exp-content {
+    width: 500px;
   }
   .tv-service .right-side .exp-content .exp .fa {
-    font-size: 20rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-  .tv-service .right-side .exp-content .exp p {
-    font-size: 4rem;
-    line-height: 1.8;
-    word-spacing: 3px;
-  }
-  .tv-service .right-side .exp-content p {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .tv-service .right-side .check-content {
-    width: 100%;
-    font-size: 5rem;
-  }
-  .tv-service .right-side .check-content p {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .tv-service .right-side .check-content .ai {
-    margin-right: 3rem;
-    font-size: 10rem;
-  }
-  .tv-service img.pattern {
-    display: none;
-  }
-  /* servise section */
-  .servises {
-    width: 110rem;
-    height: auto;
-  }
-  .servises .title {
-    width: 100%;
-    margin: 5rem auto;
-    font-size: 4rem;
-  }
-  .servises .box-area {
-    display: block;
-    align-items: center;
-    justify-content: center;
+    width: 500px;
+    text-align: justify;
   }
   .servises .box-area .box {
-    padding: 20px 40px;
-    width: 100%;
-    height: 800px;
-    margin: 5rem auto;
-  }
-  .servises .box-area .box .box-icon {
     width: 300px;
-    height: 300px;
-    margin: 5rem auto;
+    height: 250px;
   }
-  .servises .box-area .box .box-icon .icons {
-    font-size: 25rem;
+  .package-cart {
+    width: 350px;
+    height: 580px;
   }
-  .servises .box-area .box h3 {
-    font-size: 10rem;
+  .package-cart .cart-img {
+    height: 180px;
   }
-  .servises .box-area .box-cart {
-    width: 100%;
-    height: 800px;
+  .package-cart .cart-img .overlay {
+    width: 120px;
+    height: 90px;
   }
-  .servises .box-area .box-cart .box-cart-content {
-    width: 70%;
-    display: block;
-    top: 10rem;
+  .package-cart .cart-img .overlay h1 {
+    font-size: 3.5rem;
   }
-  .servises .box-area .box-cart .box-cart-content h3 {
-    font-size: 8rem;
-    margin-bottom: 3rem;
+  .package-cart .cart-img .overlay p {
+    font-size: 1.8rem;
   }
-  .servises .box-area .box-cart .box-cart-content p {
-    font-size: 6rem;
-    margin-bottom: 3rem;
+  .package-cart .cart-desc {
+    margin: 2rem 2.5rem;
   }
-  .servises .box-area .box-cart .box-cart-content a {
-    width: 70%;
-    padding: 4rem 3rem;
-    font-size: 5rem;
-    border-radius: 2rem;
+  .package-cart .cart-desc .list p {
+    font-size: 1.5rem;
   }
-  .servises .box-area .box-cart .box-cart-content a .bs {
-    font-size: 8rem;
+  .package-cart .cart-desc .price {
+    font-size: 2.2rem;
   }
-  .servises .tvserver {
-    width: 100%;
-    display: flex;
-    
-         
+  .package-cart .cart-desc .btn {
+    width: 150px;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+  }
+  .contact h1 {
+    width: 550px;
+    font-size: 2.5rem;
+  }
+  .contact .pattern {
+    height: 600px;
+    width: 300px;
+  }
+  .footer .footer-content {
+    width: 200px;
+  }
+  .footer .footer-content .social .icon-box {
+    width: 40px;
+    height: 40px;
+  }
+  .footer .footer-content .social .icon {
+    font-size: 2rem;
+  }
+  .footer .usefull-link {
+    width: 180px;
+  }
+  .footer .usefull-link h1 {
+    font-size: 1.8rem;
   }
 }

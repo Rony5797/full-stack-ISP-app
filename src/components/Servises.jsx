@@ -14,6 +14,15 @@ const Servises = () => {
       <div className="title">
         <h1>কেন সবার কাছে পতেঙ্গা অনলাইন ফাইবার ইন্টারনেট জনপ্রিয়</h1>
       </div>
+      <div className=" box-cart">
+        <div className="box-cart-content">
+          <h3>পতেঙ্গা অনলাইন হোম ওয়াইফাই</h3>
+          <p>৭০০/- টাকা থেকে শুরু প্রতি মাসে</p>
+          <a href="">
+            এখনই শুরু করুন <BsArrowRightShort className="bs" />
+          </a>
+        </div>
+      </div>
       <div className="box-area">
         <div className="box">
           <div className="box-icon">
@@ -57,16 +66,9 @@ const Servises = () => {
 
           <h3>IPv6 সমর্থিত ডেডিকেটেড</h3>
         </div>
-        <div className=" box-cart">
-          <div className="box-cart-content">
-            <h3>পতেঙ্গা অনলাইন হোম ওয়াইফাই</h3>
-            <p>৭০০/- টাকা থেকে শুরু প্রতি মাসে</p>
-            <a href="">
-              এখনই শুরু করুন <BsArrowRightShort className="bs" />
-            </a>
-          </div>
-        </div>
       </div>
+     
+      
       <div className="tvserver">
         <div className="img-overlay"></div>
         <div className="tvserver-content">

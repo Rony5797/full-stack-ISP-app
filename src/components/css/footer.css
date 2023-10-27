@@ -10,6 +10,7 @@
 }
 .footer .footer-content h1 {
   font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 .footer .footer-content p {
   font-size: 1.5rem;
@@ -143,7 +144,7 @@
   justify-content: start;
 }
 .footer .support .logo p {
-  font-size: 3rem;
+  font-size: 2.5rem;
   /* margin-left: -20px; */
 }
 .footer .support .call {
@@ -163,13 +164,13 @@
   margin-right: 2rem;
 }
 .footer .support .call .icon .bs {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .footer .support .call h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .footer .support .call h3 p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--green);
 }
 
@@ -189,14 +190,14 @@
   margin-right: 2rem;
 }
 .footer .support .mail .icon .hi {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .footer .support .mail h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-transform: lowercase;
 }
 .footer .support .mail h3 p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--green);
 }
 .author {

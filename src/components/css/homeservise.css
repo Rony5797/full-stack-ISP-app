@@ -5,9 +5,12 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.homeservise .left-side{
+  width: 50%;
+}
 .homeservise .right-side {
-  margin-left: 20rem;
+  width: 50%;
+  margin-left: 15rem;
   padding: 0 3rem;
   z-index: 2;
 }
@@ -21,7 +24,8 @@
   font-size: 2rem;
   font-weight: 600;
   margin: 2rem 0;
-  word-spacing: 3px;
+  text-align: justify;
+  word-spacing: 2px;
   color: var(--black);
 }
 .homeservise .right-side .exp-content {

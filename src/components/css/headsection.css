@@ -1,6 +1,6 @@
 .headsection {
   width: 100%;
-  height: 89vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,8 +10,6 @@
     rgba(46, 191, 145, 1) 0%,
     rgba(94, 105, 199, 1) 100%
   );
-  
-  
 }
 .headsection .content {
   width: 50%;
@@ -19,14 +17,17 @@
   color: var(--light-color);
 }
 .headsection .content h1 {
+  width: 600px;
   font-size: 4rem;
   margin-bottom: 2rem;
+  
 }
 .headsection .content p {
   font-size: 2rem;
   margin-bottom: 5rem;
-  line-height: 2;
+  line-height: 1.7;
   word-spacing: 3px;
+  text-align: justify;
 }
 .headsection .content .btn {
   padding: 12px 20px;

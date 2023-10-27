@@ -3,19 +3,20 @@
   background: #f5f5f6;
 }
 .contact h1 {
-  width: 500px;
+  width: 700px;
   text-align: center;
   font-size: 3rem;
   color: var(--black);
   margin: 2rem auto;
+  z-index: 2;
 }
 .contact .pattern {
-  background-image: url("img/pattern-1.jpg");
+  background-image: url("./img/pattern-1.jpg");
   position: absolute;
   left: 0;
   top: 0;
   height: 600px;
-  width: 600px;
+  width: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -30,6 +31,11 @@
 
 .contact-us .map {
   width: 50%;
+  z-index: 2;
+  margin-right: 3rem;
+}
+.contact-us .map iframe{
+  width: 100%;
   z-index: 2;
 }
 .contact-us .form {

@@ -5,7 +5,7 @@
   position: relative;
 }
 .packages .bg-pattern {
-  background-image: url("img/pattern-2.png");
+  background-image: url("/public/img/pattern-2.png");
   position: absolute;
   left: 0;
   top: 0;

@@ -105,7 +105,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-image: url("img/tv.jpg");
+  background-image: url("/public/img/tv.jpg");
   background-size: cover;
   position: relative;
   border-radius: 10px;

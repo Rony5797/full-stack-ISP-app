@@ -1,3 +1,18 @@
+
+@media (max-height: 680px){
+  .headsection {
+    height: auto;
+  }
+  .cart-container {
+    top:  58rem;
+  }
+  .tv-service{
+    height: auto;
+  }
+  .homeservise{
+    height: auto;
+  }
+}
 @media (max-width: 1600px) {
   .cart-container .box {
     width: 350px;

@@ -10,6 +10,7 @@
     rgba(46, 191, 145, 1) 0%,
     rgba(94, 105, 199, 1) 100%
   );
+  position: relative;
 }
 .headsection .content {
   width: 50%;
@@ -20,7 +21,6 @@
   width: 600px;
   font-size: 4rem;
   margin-bottom: 2rem;
-  
 }
 .headsection .content p {
   font-size: 2rem;
@@ -52,6 +52,6 @@
   color: var(--light-color);
   font-size: 2rem;
 }
-.headsection .bkashimg img{
+.headsection .bkashimg img {
   width: 100%;
 }

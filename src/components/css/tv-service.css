@@ -6,12 +6,17 @@
   justify-content: space-between;
   background: #f5f5f7;
   overflow: hidden;
+  position: relative;
 }
 
 .tv-service .left-side {
   width: 50%;
   margin-top: 25rem;
   position: relative;
+  z-index: 2;
+}
+.tv-service .left-side img {
+  width: 100%;
 }
 
 .tv-service .left-side .client {
@@ -105,7 +110,7 @@
   color: red;
 }
 .tv-service img.pattern {
-  position: relative;
-  top: -15rem;
-  right: 10rem;
+  position: absolute;
+  top: 0;
+  right: 0;
 }

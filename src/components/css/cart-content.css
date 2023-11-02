@@ -5,8 +5,9 @@
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  bottom: -18rem;
-  z-index: 2;
+  bottom: -22rem;
+  left: 0;
+  z-index: 5;
 }
 .cart-container .box {
   width: 400px;

@@ -1,4 +1,3 @@
-import Cartcontent from "./Cartcontent";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
 import Headsection from "./Headsection";
@@ -12,14 +11,13 @@ const Mainlayout = () => {
   return (
     <div>
       <Headsection />
-      <Cartcontent/>
-      <TvServise/>
-      <Servises/>
-      <HomeServise/>
-      <Packages/>
-      <Review/>
-      <ContactUs/>
-      <Footer/>
+      <TvServise />
+      <Servises />
+      <HomeServise />
+      <Packages />
+      <Review />
+      <ContactUs />
+      <Footer />
     </div>
   );
 };

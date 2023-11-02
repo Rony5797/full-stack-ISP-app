@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-content">
           <h1>বেস্ট ডেডিকেটেড ইন্টারনেট সার্ভিসেস কোম্পানি </h1>
           <p>
-          ঠিকানাঃ ১ম তলা, হাজী নুরুল আলম বিল্ডিং, ১৪ নং এয়ারপোর্ট কলোনি রোড,
+            ঠিকানাঃ ১ম তলা, হাজী নুরুল আলম বিল্ডিং, ১৪ নং এয়ারপোর্ট কলোনি রোড,
             চট্টগ্রাম
           </p>
           <div className="social">
@@ -71,6 +71,7 @@ const Footer = () => {
         <div className="support">
           <div className="logo">
             <svg
+              className="animeicon"
               version="1.1"
               id="wifi"
               xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +155,9 @@ const Footer = () => {
               <BsFillTelephoneFill className="bs" />
             </div>
             <h3>
-              <p>call us on</p>0123456789, 0123456789
+              <span>call us on</span>
+              <p>0123456789</p>
+              <p>0123456789</p>
             </h3>
           </div>
 
@@ -163,7 +166,8 @@ const Footer = () => {
               <HiOutlineMail className="hi" />
             </div>
             <h3>
-              <p>mail to us</p>patengaonline14no.gmail.com
+              <p>mail to us</p>
+              patengaonline14no.gmail.com
             </h3>
           </div>
         </div>

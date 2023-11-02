@@ -171,8 +171,8 @@
 .footer .support .call h3 {
   font-size: 1.8rem;
 }
-.footer .support .call h3 p {
-  font-size: 1.8rem;
+.footer .support .call h3 span {
+  font-size: 1.5rem;
   color: var(--green);
 }
 
@@ -199,7 +199,7 @@
   text-transform: lowercase;
 }
 .footer .support .mail h3 p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: var(--green);
 }
 .author {

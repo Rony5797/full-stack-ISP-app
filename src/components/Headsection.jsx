@@ -1,3 +1,4 @@
+import Cartcontent from "./Cartcontent";
 import "./css/headsection.css";
 
 const Headsection = () => {
@@ -27,6 +28,7 @@ const Headsection = () => {
         />
         <img src="img/bKash.png" />
       </div>
+      <Cartcontent />
     </section>
   );
 };

@@ -166,8 +166,8 @@ const Footer = () => {
               <HiOutlineMail className="hi" />
             </div>
             <h3>
-              <p>mail to us</p>
-              patengaonline14no.gmail.com
+              <span>mail to us</span>
+              <p>patengaonline14no.gmail.com</p>
             </h3>
           </div>
         </div>

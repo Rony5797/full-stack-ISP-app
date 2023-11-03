@@ -194,11 +194,13 @@
 .footer .support .mail .icon .hi {
   font-size: 2.5rem;
 }
-.footer .support .mail h3 {
+.footer .support .mail h3 p{
+  width: 80px;
   font-size: 1.8rem;
   text-transform: lowercase;
+  
 }
-.footer .support .mail h3 p {
+.footer .support .mail h3 span {
   font-size: 1.5rem;
   color: var(--green);
 }

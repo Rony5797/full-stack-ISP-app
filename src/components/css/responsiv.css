@@ -88,7 +88,7 @@
 
 @media (max-width: 1400px) {
   .cart-container {
-    bottom: -15rem;
+    bottom: -20rem;
   }
   .tv-service .right-side .exp-content {
     width: 500px;
@@ -180,7 +180,9 @@
   .headsection .bkashimg {
     width: 25%;
   }
-
+  .cart-container {
+    bottom: -15rem;
+  }
   .cart-container .box {
     width: 300px;
   }
@@ -538,28 +540,40 @@
     width: 500px;
   }
   .package-cart {
-    width: 320px;
+    width: 300px;
   }
+
   .contact .pattern {
     display: none;
   }
   .contact-us {
-    display: block;
+    flex-wrap: wrap;
   }
   .contact-us .map {
     width: 100%;
     height: 400px;
   }
   .contact-us .map iframe {
-    width: 100%;
+    width: 700px;
     height: 350px;
+  }
+  .footer .footer-content {
+    width: 100%;
   }
   .contact-us .form {
     width: 100%;
+    height: auto;
   }
+  /* .contact-us .form {
+   margin-bottom: 2rem;
+  } */
   .footer .support {
-    width: 200px;
+    width: 100%;
+    float: right;
+    margin-top: -10px;
+    margin-left: 15rem;
   }
+
   .footer .support .logo .animeicon {
     width: 70px;
   }
@@ -579,5 +593,91 @@
   }
   .footer .support .mail .icon .hi {
     font-size: 1.8rem;
+  }
+  .footer .support .mail h3 p {
+    font-size: 1.2rem;
+  }
+  .footer .usefull-link {
+    display: none;
+  }
+  .footer .services {
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+  .tv-service .left-side {
+    width: 80%;
+    max-width: 0 auto;
+  }
+  .tv-service .right-side {
+    margin-left: 0;
+  }
+  .servises .title {
+    font-size: 1.5rem;
+  }
+  .servises .box-area .box {
+    width: 230px;
+    height: 230px;
+  }
+  .servises .tvserver {
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .servises .tvserver .tvserver-content h1 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .servises .tvserver .tvserver-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .servises .tvserver .tvserver-content .tvserver-btn .pi {
+    font-size: 2rem;
+  }
+  .servises .tvserver .tvserver-content .tvserver-btn {
+    font-size: 1.2rem;
+  }
+  .servises .tvserver .tvserver-content .tvserver-btn a {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+  }
+  .servises .tvserver .tvserver-img {
+    width: 100%;
+    margin-top: 5rem;
+    margin-left: 0;
+  }
+  .homeservise .left-side {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .homeservise .right-side h1 {
+    font-size: 2.5rem;
+  }
+  .homeservise .right-side h6 {
+    font-size: 1.5rem;
+  }
+  .coverage {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .coverage .area-content {
+    margin-bottom: 3rem;
+  }
+  .coverage .area-img {
+    width: 100%;
+  }
+
+  .package-cart {
+    width: 450px;
+    margin: 1rem auto;
+  }
+  .contact-us .map {
+    width: 100%;
+  }
+  .contact-us .map iframe {
+    width: 105%;
   }
 }

@@ -1,0 +1,9 @@
+.packages-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.packages-page .package-cart {
+  margin-bottom: 2rem;
+}

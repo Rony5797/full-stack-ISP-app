@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-around;
   background-color: #ffffff;
+  box-shadow: var(--box-shadow);
 }
 .navber .logo {
   width: 10rem;
@@ -17,7 +18,7 @@
   align-items: center;
   justify-content: center;
 }
-.navber nav li {
+.navber nav a {
   list-style: none;
   margin-right: 2rem;
   font-size: 1.8rem;
@@ -50,8 +51,12 @@
   color: var(--green);
   outline: 2px solid var(--green);
 }
+.navber .login:hover a {
+  color: var(--green);
+}
 .navber .login a {
   font-weight: 600;
+  color: var(--white-color);
 }
 
 .navber .login .bi {

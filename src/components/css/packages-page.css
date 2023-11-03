@@ -6,4 +6,5 @@
 }
 .packages-page .package-cart {
   margin-bottom: 2rem;
+  border: 1px solid rgba(47, 255, 151, 0.389);
 }

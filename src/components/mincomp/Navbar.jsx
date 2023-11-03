@@ -45,10 +45,10 @@ const Navbar = () => {
           ব্লগ
         </NavLink>
       </nav>
-      <div className="login">
+      <NavLink to="/login" className="login">
         <BiUserCircle className="bi" />
-        <NavLink to="/login">লগইন</NavLink>
-      </div>
+        <a>লগইন</a>
+      </NavLink>
     </div>
   );
 };

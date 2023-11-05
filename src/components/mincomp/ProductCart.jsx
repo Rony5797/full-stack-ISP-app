@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./productcart.css";
 const ProductCart = () => {
   return (
@@ -12,7 +13,7 @@ const ProductCart = () => {
           libero vel autem perferendis itaque cumque.
         </p>
         <p className="price">price: 3000/- tk</p>
-        <a >Buy now</a>
+        <Link className="btn" to="555566">Buy now</Link>
       </div>
     </div>
   );

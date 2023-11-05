@@ -1,0 +1,137 @@
+.st0 {
+  fill: #e6e7e8;
+}
+.st1 {
+  fill: #d1d3d4;
+}
+.st2 {
+  fill: #f4f4f4;
+}
+.st3 {
+  fill: #bcbec0;
+}
+.st4 {
+  fill: #231f20;
+}
+.st5 {
+  fill: #ffffff;
+}
+.st6 {
+  fill: #d36866;
+}
+.st7 {
+  fill: #c2c4c6;
+}
+.st8 {
+  fill: #dbdbdb;
+}
+.st9 {
+  fill: #a7a9ac;
+}
+.st10 {
+  fill: #808285;
+}
+.blog-page {
+  text-align: center;
+}
+.blog-page svg {
+  max-width: 1000px;
+  margin: 10rem auto;
+  enable-background: new 0 0 1536.2 755.1;
+}
+.blog-page h1{
+    font-size: 5rem;
+}
+@-webkit-keyframes swinging {
+  0% {
+    -webkit-transform: rotate(10deg);
+  }
+  50% {
+    -webkit-transform: rotate(-5deg);
+  }
+  100% {
+    -webkit-transform: rotate(10deg);
+  }
+}
+
+@keyframes swinging {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+@-webkit-keyframes sleeping {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sleeping {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#swinger {
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  transform-box: fill-box;
+  -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+  animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+#zone {
+  opacity: 0;
+  -webkit-animation: sleeping 3.5s ease-in-out forwards infinite;
+  animation: sleeping 3.5s ease-in-out forwards infinite;
+}
+
+#ztwo {
+  opacity: 0;
+  -webkit-animation: sleeping 3.5s ease-in-out forwards infinite;
+  animation: sleeping 3.5s ease-in-out forwards infinite;
+  animation-delay: 0.4s;
+  -website-animation-delay: 0.4s;
+}
+
+#zthree {
+  opacity: 0;
+  -webkit-animation: sleeping 3.5s ease-in-out forwards infinite;
+  animation: sleeping 3.5s ease-in-out forwards infinite;
+  animation-delay: 0.7s;
+  -website-animation-delay: 0.7s;
+}
+
+#zfour {
+  opacity: 0;
+  -webkit-animation: sleeping 3.5s ease-in-out forwards infinite;
+  animation: sleeping 3.5s ease-in-out forwards infinite;
+  animation-delay: 1s;
+  -website-animation-delay: 1s;
+}
+
+#zfive {
+  opacity: 0;
+  -webkit-animation: sleeping 3.5s ease-in-out forwards infinite;
+  animation: sleeping 3.5s ease-in-out forwards infinite;
+  animation-delay: 1.3s;
+  -website-animation-delay: 1.3s;
+}

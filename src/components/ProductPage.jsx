@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const ProductPage = () => {
   const [chacked, setChacked] = useState();
-  const [range, setRange] = useState();
+  const [range, setRange] = useState(10000);
 
   const data = (event) => {
     console.log(event.target.checked);
@@ -85,6 +85,7 @@ const ProductPage = () => {
               name="range"
               max="10000"
               step="1000"
+              defaultValue="10000"
               onChange={(e) => rangeData(e)}
             />
             <label htmlFor="range">{range} tk</label>

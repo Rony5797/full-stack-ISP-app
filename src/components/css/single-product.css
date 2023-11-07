@@ -1,6 +1,7 @@
 .single-product {
   width: 100%;
   height: auto;
+  background: #eee;
 }
 .single-product .single-product-top {
   width: 100%;
@@ -8,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #ffffff;
 }
 .single-product .single-product-top .single-product-img {
   width: 50%;
@@ -19,15 +21,15 @@
   width: 50%;
 }
 .single-product .single-product-top .single-product-key h1 {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 .single-product .single-product-top .single-product-key .key {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 .single-product .single-product-top .single-product-key p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 .single-product .single-product-top .single-product-key .payment-option {
@@ -87,4 +89,52 @@
   background: var(--green);
   border-radius: 5px;
   cursor: pointer;
+}
+.single-product .single-product-buttom {
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.single-product .single-product-buttom .specification {
+  width: 70%;
+  padding: 3rem;
+  background: #ffffff;
+}
+.single-product .single-product-buttom .specification h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.single-product .single-product-buttom .specification table {
+  width: 100%;
+}
+.single-product .single-product-buttom .specification table td {
+  padding: 1.5rem;
+  border-bottom: 2px solid #eee;
+}
+.single-product .single-product-buttom .specification table .heading-row {
+  font-size: 1.7rem;
+  color: #ffffff;
+  background: var(--green);
+}
+.single-product .single-product-buttom .specification table .name {
+  width: 50%;
+  font-size: 1.5rem;
+}
+.single-product .single-product-buttom .specification table .value {
+  width: 50%;
+  font-size: 1.5rem;
+}
+.single-product .single-product-buttom .description {
+  width: 70%;
+  padding: 3rem;
+  background: #ffffff;
+}
+.single-product .single-product-buttom .description h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.single-product .single-product-buttom .description p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }

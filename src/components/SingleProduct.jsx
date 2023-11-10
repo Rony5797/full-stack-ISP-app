@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./css/single-product.css";
 
 const SingleProduct = () => {
@@ -25,9 +26,9 @@ const SingleProduct = () => {
               <level htmlFor="cash">cash on delivery</level>
             </div>
           </div>
-          <button type="button" className="btn">
-            Buy 
-          </button>
+          <Link to="checkout" className="btn">
+            Buy
+          </Link>
         </div>
       </div>
       <div className="single-product-buttom">

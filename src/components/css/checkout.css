@@ -1,0 +1,201 @@
+.checkout {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 2rem;
+  background: #eee;
+}
+.checkout .customer {
+  width: 50%;
+  background: #ffffff;
+}
+.checkout .customer h1 {
+  font-size: 2rem;
+  padding: 2rem;
+  color: var(--black);
+}
+.checkout .customer form {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  /* background: #fff; */
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+/* .customer form .inputBox{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  } */
+.checkout .customer form .inputBox .input {
+  width: 100%;
+}
+.checkout .customer form .inputBox .input span {
+  display: block;
+  padding: 0.5rem 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--black);
+}
+.checkout .customer form .inputBox .input input,
+.checkout .customer form .inputBox .input textarea {
+  background: #eee;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.checkout .customer form .inputBox .input input:focus,
+.checkout .customer form .inputBox .input textarea:focus {
+  outline: 0.1rem solid var(--green);
+}
+.checkout .customer form .inputBox .input textarea {
+  height: 10rem;
+  resize: none;
+  margin-bottom: 2rem;
+}
+.checkout .customer .paymant-process {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.checkout .customer .note {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: red;
+}
+.checkout .customer form .btn {
+  width: 200px;
+  margin-top: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: var(--green);
+}
+.checkout .customer form .btn:hover {
+  background: #fff;
+  outline: 1px solid var(--green);
+  color: var(--green);
+  cursor: pointer;
+}
+
+.checkout .pay-option {
+  width: 50%;
+  padding: 5rem;
+  border-radius: 5px;
+  border: 1px solid var(--green);
+  background: #ffffff;
+  box-shadow: var(--box-shadow);
+}
+.checkout .pay-option .title {
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--black);
+  border-bottom: 1px solid #000;
+  margin-bottom: 1rem;
+}
+.checkout .pay-option .pay-product-list {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.checkout .pay-option .pay-product-list .pay-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.checkout .pay-option .pay-product-list .pay-product img {
+  width: 70px;
+  height: 70px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  background: #eee;
+}
+.checkout .pay-option .pay-product-list .pay-product h1 {
+  font-size: 1.5rem;
+  width: 60%;
+  color: var(--green);
+}
+.checkout .pay-option .pay-product-list .pay-product p {
+  width: 40%;
+  text-align: end;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.checkout .pay-option .discount {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+  margin-bottom: 2rem;
+}
+.checkout .pay-option .discount h3 {
+  position: relative;
+  bottom: 15px;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background: #ffffff;
+}
+.checkout .pay-option .discount input {
+  background: #eee;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  width: 200px;
+}
+.checkout .pay-option .discount input:focus {
+  outline: 0.1rem solid var(--green);
+}
+.checkout .pay-option .discount .btn {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 100px;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+}
+.checkout .pay-option .total-price {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+}
+.checkout .pay-option .total-price h3 {
+  position: relative;
+  bottom: 15px;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background: #ffffff;
+}
+.checkout .pay-option .total-price p {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  background: #ffffff;
+}

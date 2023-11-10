@@ -8,6 +8,7 @@ import RegistrationPage from "./components/RegistrationPage";
 import Navbar from "./components/mincomp/Navbar";
 import { Routes, Route } from "react-router-dom";
 import SingleProduct from "./components/SingleProduct";
+import Checkout from "./components/Checkout";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/packages" element={<AllPackagesPage />} />
         <Route path="/products" element={<ProductPage />} />
         <Route path="/products/:id" element={<SingleProduct />} />
+        <Route path="/products/:id/checkout" element={<Checkout />} />
         <Route path="/about-us" element={<AboutusPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/login" element={<LoginPage />} />

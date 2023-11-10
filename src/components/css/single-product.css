@@ -80,15 +80,18 @@
   cursor: pointer;
 }
 .single-product .single-product-top .single-product-key .btn {
-  width: 200px;
-  height: 50px;
-  padding: 10px 20px;
+  padding: 10px 60px;
   color: #ffffff;
   font-size: 2rem;
   font-weight: 600;
   background: var(--green);
   border-radius: 5px;
   cursor: pointer;
+}
+.single-product .single-product-top .single-product-key .btn:hover {
+  color: var(--green);
+  background: #ffffff;
+  outline: 1px solid var(--green);
 }
 .single-product .single-product-buttom {
   margin-top: 1rem;

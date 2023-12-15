@@ -1,0 +1,43 @@
+.content {
+  width: 50%;
+  margin-bottom: 15rem;
+  color: var(--light-color);
+}
+.content h1 {
+  width: 600px;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.content p {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  line-height: 1.7;
+  word-spacing: 3px;
+  text-align: justify;
+}
+.content .btn {
+  padding: 12px 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--green);
+  background: var(--light-color);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.content .btn:hover {
+  background: var(--green);
+  color: var(--light-color);
+  outline: 2px solid var(--light-color);
+}
+.img {
+  margin-bottom: 15rem;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--light-color);
+  font-size: 2rem;
+}
+.img img {
+  width: 100%;
+}

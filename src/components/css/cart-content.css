@@ -1,13 +1,11 @@
 .cart-container {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  bottom: -22rem;
-  left: 0;
+  gap: 5rem;
   z-index: 5;
+  position: relative;
 }
 .cart-container .box {
   width: 400px;

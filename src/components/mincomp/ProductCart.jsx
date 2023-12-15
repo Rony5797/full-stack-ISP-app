@@ -13,7 +13,7 @@ const ProductCart = () => {
           libero vel autem perferendis itaque cumque.
         </p>
         <p className="price">price: 3000/- tk</p>
-        <Link className="btn" to="555566">Buy now</Link>
+        <Link className="btn" to="555566">see more</Link>
       </div>
     </div>
   );

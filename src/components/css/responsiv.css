@@ -13,9 +13,6 @@
   }
 }
 @media (max-width: 1600px) {
-  .cart-container {
-    bottom: -18rem;
-  }
   .cart-container .box {
     width: 350px;
   }
@@ -87,9 +84,6 @@
 }
 
 @media (max-width: 1400px) {
-  .cart-container {
-    bottom: -20rem;
-  }
   .tv-service .right-side .exp-content {
     width: 500px;
   }
@@ -180,9 +174,7 @@
   .headsection .bkashimg {
     width: 25%;
   }
-  .cart-container {
-    bottom: -15rem;
-  }
+
   .cart-container .box {
     width: 300px;
   }
@@ -257,15 +249,8 @@
 }
 
 @media (max-width: 1150px) {
-  .headsection {
-    height: 80vh;
-  }
-  .cart-container {
-    bottom: -22rem;
-  }
   .cart-container .box {
     width: 260px;
-    bottom: 12rem;
   }
   .cart-container .box .cart-des {
     top: 12rem;
@@ -394,12 +379,9 @@
   .headsection .bkashimg {
     width: 30%;
   }
-  .cart-container {
-    height: auto;
-  }
+
   .cart-container .box {
     width: 230px;
-    bottom: 12rem;
   }
   .cart-container .box .cart-des {
     top: 11rem;
@@ -473,6 +455,7 @@
   .cart-container {
     position: relative;
     display: contents;
+    z-index: 5;
   }
   .cart-container .box {
     width: 300px;
@@ -496,12 +479,8 @@
     display: block;
     height: auto;
   }
-  .tv-service img.pattern {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    right: 0;
+  .main-service .pattern {
+    display: none;
   }
   .tv-service .left-side {
     width: 100%;
